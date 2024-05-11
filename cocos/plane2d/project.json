@@ -1,0 +1,8 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "plane2d",
+  "id": "26cf41fe-5300-4675-a873-1d826cf431fc",
+  "version": "2.4.13",
+  "isNew": false
+}
