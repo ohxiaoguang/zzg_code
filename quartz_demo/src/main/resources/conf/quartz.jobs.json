@@ -1,0 +1,21 @@
+[
+  {
+    "jobName": "TestJob1",
+    "jobGroup": "test",
+    "jobExtendData": {
+      "arg1": "123",
+      "arg2": "qwe",
+      "argObj": {
+        "a1": "qwe11",
+        "a2": "1231",
+        "a3": "qweww",
+        "a4": "asddd"
+      }
+    },
+    "jobClass": "com.zzg.job.TestTask",
+    "jobTrigger": "CronTirgger",
+    "cronExpression": "10 0/3 * * * ? "
+  }
+
+
+]

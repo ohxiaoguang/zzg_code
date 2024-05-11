@@ -1,0 +1,23 @@
+
+
+spring:
+  profiles:
+    active: dev
+
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+server:
+  port: 8091
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/**/*.xml
+  type-aliases-package: com.zzg.bean
+  configuration:
+    cache-enabled: true
+    jdbc-type-for-null: null
+    map-underscore-to-camel-case: true
+    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
